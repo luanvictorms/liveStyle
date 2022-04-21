@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 import {Phone, Instagram, MailOutline, Room, WhatsApp} from '@material-ui/icons';
-import { mobile } from '../responsive';
+import { mobile, mobileGrande } from '../responsive';
 
 
 const Container = styled.div`
     display: flex;
     ${mobile({flexDirection: "column"})}
+    ${mobileGrande({ backgroundColor: "#eee" })}
 `;
 
 const Left = styled.div`
@@ -43,6 +44,7 @@ const Center = styled.div`
     flex: 1;
     padding: 20px;
     ${mobile({ display: "none" })}
+    ${mobileGrande({ display: "none" })}
 `;
 
 const Title = styled.h3`

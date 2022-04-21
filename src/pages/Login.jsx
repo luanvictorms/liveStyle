@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { mobile } from '../responsive';
+import { mobile, mobileGrande } from '../responsive';
 import { Link } from 'react-router-dom';
 
 const Container = styled.div`
@@ -22,11 +22,13 @@ const Wrapper = styled.div`
     background-color: white;
     border-radius: 0 50px 0 50px;
     ${mobile({ width: "75%" })}
+    ${mobileGrande({ width: "75%" })}
 `;
 
 const Title = styled.h1`
         font-size: 24px;
         font-weight: 300;
+        ${mobileGrande({ display: "flex", justifyContent: "center" })}
 `;
 
 const Form = styled.form`
@@ -52,6 +54,7 @@ const Button = styled.button`
         cursor: pointer;
         border-radius: 0 50px 0 50px;
         margin-bottom: 10px;
+        ${mobileGrande({ width: "100%" })}
 `;
 
 const Linked = styled.a`

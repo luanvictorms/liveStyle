@@ -4,6 +4,7 @@ import Announcement from '../components/Announcement';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import { mobile } from '../responsive';
+import {Link} from 'react-router-dom';
 
 const Container = styled.div`
     
@@ -194,7 +195,7 @@ const Cart = () => {
         <Wrapper>
             <Title>SEU CARRINHO</Title>
             <Top>
-                <TopButton>CONTINUE COMPRANDO</TopButton>
+                <Link to="/listaprodutos" style={{textDecoration: "none"}}><TopButton>CONTINUE COMPRANDO</TopButton></Link>
                 <TopTexts>
                     <TopText>Bolsa de Compras(2)</TopText>
                     <TopText>Minha Lista de Desejos (0)</TopText>

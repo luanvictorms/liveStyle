@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { mobile } from '../responsive';
+import { mobile, mobileGrande } from '../responsive';
 import { Link } from 'react-router-dom';
 
 const Image = styled.img`
@@ -8,6 +8,7 @@ const Image = styled.img`
     object-fit: cover;
     transition: all 0.5s ease;
     ${mobile({height: "30vh"})}
+    ${mobileGrande({height: "20vh"})}
 `;
 
 const Container = styled.div`

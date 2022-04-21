@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { mobile } from '../responsive';
+import { mobile, mobileGrande } from '../responsive';
 import { Link } from 'react-router-dom';
 
 const Container = styled.div`
@@ -22,6 +22,7 @@ const Wrapper = styled.div`
     background-color: white;
     border-radius: 0 50px 0 50px;
     ${mobile({ width: "75%" })}
+    ${mobileGrande({ width: "60%" })}
 `;
 
 const Title = styled.h1`
@@ -44,6 +45,7 @@ const Input = styled.input`
 const Agreement = styled.span`
     font-size: 12px;
     margin: 20px 0px;
+    ${mobileGrande({ fontSize: "16px" })}
 `;
 
 const Button = styled.button`

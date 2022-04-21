@@ -5,6 +5,13 @@ import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Products from '../components/Products'
 import Slider from '../components/Slider'
+import slyled from 'styled-components'
+
+const TopTitle = slyled.h1`
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+`;
 
 const Home = () => {
   return (
@@ -13,6 +20,7 @@ const Home = () => {
         <Navbar />
         <Slider />
         <Categories />
+        <TopTitle>Produtos Populares</TopTitle>
         <Products />
         <Footer />
     </div>
