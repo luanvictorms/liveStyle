@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+​![​GitHub repo size​](https://img.shields.io/github/repo-size/luanvictorms/liveStyle) 
+​![​GitHub language count​](https://img.shields.io/github/languages/count/luanvictorms/liveStyle) 
+​![​GitHub forks​](https://img.shields.io/github/forks/luanvictorms/liveStyle) 
+​![​Bitbucket open issues​](https://img.shields.io/bitbucket/issues/luanvictorms/liveStyle) 
+​![​Bitbucket open pull requests​](https://img.shields.io/bitbucket/pr-raw/luanvictorms/liveStyle) 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
