@@ -69,10 +69,10 @@ const Login = () => {
             <Form>
                 <Input placeholder="Seu username..."/>
                 <Input placeholder="Sua senha..."/>
-                <Button><Link to="/" style={{textDecoration: "none", color: "white"}}>LOGAR</Link></Button>
-                <Button type="back"><Link to="/" style={{textDecoration: "none", color: "white"}}>VOLTAR</Link></Button>
+                <Link to="/" style={{textDecoration: "none", color: "white"}}><Button>LOGAR</Button></Link>
+                <Link to="/" style={{textDecoration: "none", color: "white"}}><Button type="back">VOLTAR</Button></Link>
                 <Linked>NÃO LEMBRA DA SUA SENHA?</Linked>
-                <Linked><Link to="/registrar" style={{textDecoration: "none", color: "black"}}>CRIAR UMA CONTA</Link></Linked>
+                <Link to="/registrar" style={{textDecoration: "none", color: "black"}}><Linked>CRIAR UMA CONTA</Linked></Link>
             </Form>
         </Wrapper>
     </Container>

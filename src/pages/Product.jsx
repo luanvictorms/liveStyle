@@ -23,6 +23,7 @@ const Image = styled.img`
     width: 100%;
     height: 90vh;
     object-fit: cover;
+    transition: all 0.5s;
     ${mobile({ height: "40vh" })}
 `;
 

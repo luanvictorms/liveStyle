@@ -74,7 +74,7 @@ const Register = () => {
                     Ao criar uma conta, eu confirmo os meus dados em acordo com a <b>ACORDO DE PRIVACIDADE</b>
                 </Agreement>
                 <Button>CRIAR CONTA</Button>
-                <Button type="back"><Link to="/" style={{textDecoration: "none", color: "white"}}>VOLTAR</Link></Button>
+                <Link to="/" style={{width: "60%", textDecoration: "none", color: "white"}}><Button type="back">VOLTAR</Button></Link>
             </Form>
         </Wrapper>
     </Container>
