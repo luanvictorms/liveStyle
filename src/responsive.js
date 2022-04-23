@@ -8,6 +8,14 @@ export const mobile = (props) => {
     `;
 };
 
+export const mobileMedio = (props) => {
+    return css`
+        @media only screen and (max-width: 450px) {
+            ${props};
+        }
+    `;
+};
+
 export const mobileGrande = (props) => {
     return css`
         @media only screen and (max-width: 1080px) {

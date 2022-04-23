@@ -2,7 +2,6 @@ import  styled  from 'styled-components';
 import { categories } from "../data";
 import CategoryItem from "./CategoryItem";
 import { mobile, mobileGrande } from '../responsive';
-import { Link } from 'react-router-dom';
 
 const Container = styled.div`
     display: flex;
